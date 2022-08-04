@@ -2,14 +2,19 @@ import {ThemeProvider} from 'styled-components';
 import Header from './Components/Header';
 import {Container} from './Components/styles/Container.styled';
 import GlobalStyles from './Components/styles/Global';
+import content from './content'
+import Card from './Components/Card';
 
 const theme={
 
   colors:{
-    header:'#f1faee',
+    header:'#FFF8F0',
     body:'#fff ',
     footer:'#003333',
-  }
+  },
+  
+  // Media query for smaller screens.
+  mobile: '768px',
 }
 
 
@@ -22,7 +27,9 @@ function App() {
     <GlobalStyles/>
     <Header/>
       <Container>
-        <h1>Hello World</h1>
+        {content.map((item,index) => (
+          <Card key={index} item={item}/>
+        ))}
       </Container>
 
     </>

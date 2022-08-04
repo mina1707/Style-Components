@@ -21,7 +21,7 @@ export default function Header() {
                     can have unlimited access without ads or commercials.
                     Time to spread the news and share them with yoy firends!
                   </p>
-                  <Button bg='#e63946' color='#fff'>Get Started For Free</Button>
+                  <Button bg='#6E44FF' color='#fff'>Get Started For Free</Button>
                 </div>
 
                 <Image src='./person-watching.png'/>
