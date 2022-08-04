@@ -1,12 +1,13 @@
 import {Container} from './styles/Container.styled';
 import {Logo} from './styles/Header.styled';
 import {Flex} from './styles/Flex.styled';
+import { StyledFooter } from './styles/Footer.styled';
 
 
 export default function Footer() {
   return (
-    <div>
 
+    <StyledFooter>
         <Container>
              <Logo>Cinema</Logo>
 
@@ -42,8 +43,8 @@ export default function Footer() {
              </Flex>
 
              <p>COPYRIGHT 2022</p>
-
+            
         </Container>
-    </div>
+    </StyledFooter>
   )
 }

@@ -4,13 +4,14 @@ import {Container} from './Components/styles/Container.styled';
 import GlobalStyles from './Components/styles/Global';
 import content from './content'
 import Card from './Components/Card';
+import Footer from './Components/Footer';
 
 const theme={
 
   colors:{
     header:'#FFF8F0',
     body:'#fff ',
-    footer:'#003333',
+    footer:'#B892FF',
   },
   
   // Media query for smaller screens.
@@ -31,6 +32,7 @@ function App() {
           <Card key={index} item={item}/>
         ))}
       </Container>
+      <Footer/>
 
     </>
     </ThemeProvider>
