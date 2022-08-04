@@ -2,6 +2,7 @@ import {Container} from './styles/Container.styled';
 import {Logo} from './styles/Header.styled';
 import {Flex} from './styles/Flex.styled';
 import { StyledFooter } from './styles/Footer.styled';
+import { SocialIcons  } from './SocialIcons';
 
 
 export default function Footer() {
@@ -39,7 +40,7 @@ export default function Footer() {
                 </ul>
 
 
-
+             <SocialIcons/>
              </Flex>
 
              <p>COPYRIGHT 2022</p>
