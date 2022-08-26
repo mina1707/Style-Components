@@ -38,7 +38,7 @@ function same (arr1, arr2){
     for (let key in frequencyCounter1){
 
         //We check if the key is in the second counter
-        if(!(key **2 in frequencyCounter1)){
+        if(!(key **2 in frequencyCounter2)){
             return false;
         }
         // Now, we check if there are the same amount of keys
